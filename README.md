@@ -2,8 +2,9 @@
 
 A computer vision system that watches a driver's eyes through a webcam and raises an alarm when they start falling asleep. It runs in real time **on a normal laptop CPU, with no GPU needed**.
 
-<!-- Record a demo with:  python run_webcam.py --save demo.mp4  then convert to assets/demo.gif -->
-<!-- ![demo](assets/demo.gif) -->
+![Demo: a long eye closure triggers the DROWSINESS ALERT, then frequent closures raise PERCLOS](assets/demo.gif)
+
+*Live demo: after a 2-second eye closure the alarm fires. Repeated closures then push PERCLOS above 30% and raise it again.*
 
 ## Features
 
